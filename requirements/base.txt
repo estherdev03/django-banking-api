@@ -1,17 +1,17 @@
-django = "*"
-python-dotenv = "*"
-djangorestframework = "*"
-django-countries = "*"
-django-phonenumber-field = "*"
-phonenumbers = "*"
-drf-spectacular = "*"
-pillow = "*"
-argon2-cffi = "*"
-djoser = "*"
-django-filter = "*"
-django-celery-email = "*"
-django-celery-beat = "*"
-cloudinary = "*"
-python-dateutil = "*"
-psycopg2-binary = "*"
-loguru = "*"
+django==6.0.3
+python-dotenv==1.2.2
+djangorestframework==3.16.1
+django-countries==8.2.0
+django-phonenumber-field==8.4.0
+phonenumbers==9.0.25
+drf-spectacular==0.29.0
+pillow==12.1.1
+argon2-cffi==25.1.0
+djoser==2.3.3
+django-filter==25.2
+django-celery-email==3.0.0
+django-celery-beat==2.9.0
+cloudinary==1.44.1
+python-dateutil==2.9.0.post0
+psycopg2-binary==2.9.11
+loguru==0.7.3
