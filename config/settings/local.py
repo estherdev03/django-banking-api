@@ -32,3 +32,9 @@ DOMAIN = getenv("DOMAIN")
 MAX_UPLOAD_SIZE = 1 * 1024 * 1024  # 1MB
 
 CSRF_TRUSTED_ORIGINS = ["http://localhost:8080"]
+
+LOCKOUT_DURATION = timedelta(minutes=1)
+
+LOGIN_ATTEMPS = 3
+
+OTP_EXPIRATION = timedelta(minutes=1)
